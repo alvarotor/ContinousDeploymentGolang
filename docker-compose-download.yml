@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  hello:
+    image: "ghcr.io/alvarotor/continousdeploymentgolang:latest"
+    ports:
+      - "80:3001"
